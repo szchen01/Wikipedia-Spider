@@ -30,6 +30,7 @@ def palindrome_counter(url):
                 palindromes.append(word)
     print(f'There are {count} palindromes in this article:')
     print(palindromes)
+    return count, palindromes
 
 
 palindrome_counter(
